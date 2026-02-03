@@ -5,6 +5,11 @@ This repository contains a full, from-scratch implementation of **STD-Net**, a b
 
 Our approach solves this by explicitly **demixing** the input image into its structural and textural components before performing segmentation. By isolating the "signal" (structure) from the "noise" (texture), the model achieves robust performance even on low-contrast datasets.
 
+<p align="center">
+  <img src="path/to/your/results_image.png" alt="Visual results of STD-Net showing demixing and segmentation" width="800">
+  <br>
+  <em>**Figure 1: Visualizing the STD-Net Pipeline.** From left to right: The original retinal image, the demixed structural component (S), the demixed textural component (T), and the final generated segmentation mask.</em>
+</p>
 ---
 
 ## 🏗️ Architecture Design
